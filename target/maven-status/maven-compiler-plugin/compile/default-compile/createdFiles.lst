@@ -1,0 +1,12 @@
+com\dsmc\dao\AlumnosDAO.class
+com\dsmc\persona\service\impl\PersonaImpl.class
+com\dsmc\entity\Alumnos.class
+com\dsmc\persona\rowmap\PersonaRowMap.class
+com\dsmc\persona\controller\PersonaController.class
+com\dsmc\service\impl\AlumnoServiceImpl.class
+com\dsmc\controller\AlumnosController.class
+com\dsmc\persona\Persona.class
+com\dsmc\persona\dao\PersonaDAO.class
+com\dsmc\service\AlumnoService.class
+com\dsmc\dao\impl\AlumnosDAOImp.class
+com\dsmc\persona\controller\PersonaControllerQuery.class
