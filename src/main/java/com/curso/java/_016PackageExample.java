@@ -1,0 +1,9 @@
+package com.curso.java;
+/*
+ --PACKAGES
+ --THE NAME OF THE PACKAGES MUST IN MINUSCULAS
+ --INVERT THE PACKAGES EJ. GLBOALMENTORING.COM.MX TO MX.COM.GLOBALMENTORING  
+ */
+public class _016PackageExample {
+
+}

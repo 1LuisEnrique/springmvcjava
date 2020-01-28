@@ -4,7 +4,7 @@ package com.curso.java;
 public class _004StaticExample {
 	public static void main(String[] args) {
 		_003StaticPeople people = new _003StaticPeople("Luis");
-		System.out.println(people); //solo en imprime el objeto persona ya que la notacion ln 
+		System.out.println(people); //solo imprime el objeto persona ya que la notacion ln 
 									//va a detectar automaticamente el metodo toString asi que ya no
 									// es necesario invocarlo especificando que es toString
 		_003StaticPeople people2 = new _003StaticPeople("Enrique");
