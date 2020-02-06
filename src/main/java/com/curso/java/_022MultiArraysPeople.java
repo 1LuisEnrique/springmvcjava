@@ -1,9 +1,9 @@
 package com.curso.java;
 
-public class _20ArraysPeople {
+public class _022MultiArraysPeople {
 	private String name;
 
-	public _20ArraysPeople(String name) {
+	public _022MultiArraysPeople(String name) {
 		super();
 		this.name = name;
 	}

@@ -1,6 +1,6 @@
 package com.curso.java;
 /*VIDEO 94. ARRAYS*/
-public class _21ArraysExample {
+public class _021ArraysExample {
 	public static void main(String[] args) {
 		
 		//1. DECLARE A VARIABLE ARRAY TYPE INTEGER 
@@ -20,11 +20,11 @@ public class _21ArraysExample {
 		System.out.println("Array of Integers on index 2: " + edades[2]);
 		
 		//1. DECLARE AND INSTACE ARRAY OF OBJECT TYPE 
-		_20ArraysPeople peoples[] = new _20ArraysPeople[4];
+		_020ArraysPeople peoples[] = new _020ArraysPeople[4];
 		
 		//2. INITIALIZING THE VALUES INDEX OF OUR ARRAY
-		peoples[0] = new _20ArraysPeople("Luis 0");
-		peoples[2] = new _20ArraysPeople("Luis 2");
+		peoples[0] = new _020ArraysPeople("Luis 0");
+		peoples[2] = new _020ArraysPeople("Luis 2");
 //		peoples[2] = new _20ArraysPeople("Luis 2");
 //		peoples[3] = new _20ArraysPeople("Luis 3");
 		
