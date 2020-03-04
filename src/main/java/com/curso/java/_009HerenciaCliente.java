@@ -5,20 +5,28 @@ import java.util.Date;
 public class _009HerenciaCliente extends _007HerenciaPersona{
 	private int idCoustumer;
 	private Date registerDate;
-	private boolean vip;//Very Important Person
+	private boolean vip;	//Very Important Person
 	private static int coustumerAccountant;
 	
+	/**
+	 * 
+	 * @param registerDate
+	 * @param vip
+	 */
 	public _009HerenciaCliente(Date registerDate, boolean vip) {
 		this.idCoustumer = ++coustumerAccountant;
 		this.registerDate = registerDate;
 		this.vip = vip;
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	public int getIdCoustumer() {
 		return idCoustumer;
 	}
 
-	
 	public Date getRegisterDate() {
 		return registerDate;
 	}

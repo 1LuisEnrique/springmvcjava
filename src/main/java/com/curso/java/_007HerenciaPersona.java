@@ -17,7 +17,7 @@ package com.curso.java;
 // LOS VALORES DE LOS ATRIBUTOS
 // EN CIERTO MOMENTO DEL TIEMPO DE VIDA DEL OBJETO, METODO STRING ES UN METODO
 // HEREDADO DE LA CLASE OBJECT
-// LA NOTACION @OVERRIDE INDICA QUE ESTAMOS SOBREESCRIBIENO EL COMPORTAMIENTO DE
+// LA NOTACION @OVERRIDE INDICA QUE ESTAMOS SOBREESCRIBIENdo EL COMPORTAMIENTO DE
 // UN METODO DE LA CLASE PADRE O CLASES SUPERIORES
 // TOSTRING SIRVE PARA CONVERTIR EL ESTADO DE UN OBJETO A UNA CADENA
 // SUPER AYUDARA MANDAR A LLAMAR A LA CLASE PADRE SIEMPRE Y CUANDO SEAN
@@ -30,12 +30,18 @@ public class _007HerenciaPersona {
 	private int age;
 	private String direction;
 
-	// agregar un constructor vacio
+	/**
+	 * add empty constructor
+	 */
 	public _007HerenciaPersona() {
 
 	}
 
-	// agregar un constructor con 1 argumento
+	/**
+	 * add constructor with 1 argument
+	 * 
+	 * @param name
+	 */
 	public _007HerenciaPersona(String name) {
 		this.name = name;
 	}
@@ -85,8 +91,5 @@ public class _007HerenciaPersona {
 		return "HerenciaPersona [name=" + name + ", gender=" + gender + ", age=" + age + ", direction=" + direction
 				+ "]";
 	}
-	
-	
-	
-	
+
 }

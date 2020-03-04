@@ -34,7 +34,7 @@ public class _021ArraysExample {
 		System.out.println("Array Value type objects of index 2: " + peoples[2]);
 		System.out.println("Array Value type objects of index 3: " + peoples[3]);
 		
-		String nombres[] = {"luis","Laura","Sandy"};
+		String nombres[] = {"luis","Laura","Lucero"};
 		
 		//PRINT VALUES OF ARRAY
 		for (int i = 0; i < nombres.length; i++) {

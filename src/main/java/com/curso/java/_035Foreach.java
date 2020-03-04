@@ -19,10 +19,14 @@ package com.curso.java;
  */
 public class _035Foreach {
 		public static void main(String[] args) {
-	        //Imprimimos varios numeros
+	        /**
+	         * Imprimimos varios numeros
+	         */
 	        imprimirNumeros(15,1,4,6);
 	        
-	        //Paramtros variables
+	        /**
+	         * Parameters variables
+	         */
 	        System.out.println("");
 	        variosParametros("Juan", true, 14, 2, 5);
 	    }
@@ -36,7 +40,9 @@ public class _035Foreach {
 	    }
 
 	    private static void imprimirNumeros(int... numeros) {
-	        //Recorremos cada elemento del arreglo 
+	        /**
+	         * Iterate every  element of array
+	         */
 	        for (int i = 0; i < numeros.length; i++) {
 	            int elemento = numeros[i];
 	            System.out.println("elemento = " + elemento);

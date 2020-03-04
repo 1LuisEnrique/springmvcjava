@@ -1,7 +1,10 @@
 package com.curso.java;
 
-//va acceder a todos los metodos y atributos que sean publicos
-//los constructores, METODOS Y ATRIBUTOS PRIVADOS NO SE HEREDAN A LA CLASE HIJA
+/**
+ * va acceder a todos los metodos y atributos que sean publicos
+ * @author USUARIO
+ *los constructores, METODOS Y ATRIBUTOS PRIVADOS NO SE HEREDAN A LA CLASE HIJA
+ */
 public class _008HerenciaEmpleado extends _007HerenciaPersona {
 	private int idEmployee;
 	private double salary;
@@ -36,6 +39,4 @@ public class _008HerenciaEmpleado extends _007HerenciaPersona {
 		/*PARA MANDAR A LLAMAR LOS VALORES DE LA CLASE PADRE UTILIZAMOS SUPER Y DE ESTA FORMA LOS CONVIERTE A UN STRING*/
 	}
 	
-	
-
 }

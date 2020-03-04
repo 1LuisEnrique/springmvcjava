@@ -17,7 +17,12 @@ package com.curso.java;
  * */
 public class _014MethodOverloadOperations {
 	
-	//metthod add 
+	/**
+	 * Defined method add 
+	 * @param a
+	 * @param b
+	 * @return
+	 */
 	public static int add(int a, int b) {
 		System.out.println("method add(int ,int)");
 		return a + b;
